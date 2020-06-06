@@ -1,12 +1,15 @@
-[submodule "bsg_f1"]
+[submodule "bsg_replicant"]
 	path = bsg_replicant
-	url = git@github.com:dpetrisko/bsg_replicant.git
+    url = git@github.com:dpetrisko/bsg_replicant.git
+    branch = manycore_integration_hacks
 [submodule "bsg_manycore"]
 	path = bsg_manycore
 	url = git@github.com:dpetrisko/bsg_manycore.git
+    branch = manycore_integration_hacks
 [submodule "basejump_stl"]
 	path = basejump_stl
 	url = git@github.com:dpetrisko/basejump_stl
+    branch = manycore_integration_hacks
 [submodule "aws-fpga"]
 	path = aws-fpga
 	url = git@github.com:aws/aws-fpga.git
